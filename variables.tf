@@ -82,6 +82,12 @@ variable "database_subnet_tags" {
     default = {}
 }
 
+### db subnet group ###
+variable "database_subnet_group_tags" {
+    type = map
+    default = {}
+}
+
 #### nat gateway variables ####
 variable "nat_gateway_tags" {
     type = map
